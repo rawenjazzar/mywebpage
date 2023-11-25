@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+    color: #e94d58;
+    font-family: 'Arial', sans-serif;
+}
+
+#proposal-container {
+    text-align: center;
+}
+
+#proposalText, #hiddenMessage {
+    color: #e94d79;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#giftImage, #hiddenGif {
+    max-width: 200px; /* Adjust the size as needed */
+    margin: 10px;
+}
+
+#btnYes  {
+    background-color: #e94d58;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+}
+#btnNo{
+    background-color: white;
+    color: #e94d58;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+#hiddenGif {
+    display: none;
+}
+#hiddenMessage {
+    display: none; 
+}    
